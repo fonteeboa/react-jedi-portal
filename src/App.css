@@ -1,0 +1,243 @@
+.App {
+  text-align: center;
+  background: linear-gradient(0, #ff8c8c, #7f7bff);
+  height: 100% !important;
+  width: 100% !important;
+}
+
+@keyframes anim-stars {
+  from {
+      transform: translateY(0px);
+  }
+  to {
+      transform: translateY(-150px);
+  }
+}
+
+.form-text {
+  color:white;
+}
+
+.divBtn, .btn-neon {
+  background-color: #7f7bff !important;
+  border-color: #7f7bff !important;
+  border: 0 !important;
+  border-radius: 0% !important;
+  width: 100% !important;
+  
+}
+
+.btn-neon{
+  height: 50px !important;
+  width: 100px !important;
+  text-align: center;
+  line-height: 50px !important;
+  transition: 1s;
+  transition-delay: .9s;
+  position: relative !important;
+  display: inline-block !important;
+}
+
+.btn-neon:hover{
+  color: white !important;
+  box-shadow: 0px 10px 10px -10px #ff8c8c , 0px 10px 20px -20px #ff8c8c , 0px 10px 40px -40px #ff8c8c !important;
+}
+
+.divTables {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.divTables {
+  max-width: 80% !important;
+}
+
+.divTables, .divBtn, .noDataDiv{
+  height: 100% !important;
+  align-content: center;
+  margin:auto;
+  padding-top: 0% !important;
+  padding: auto !important;
+}
+
+.dividerCss, tr, .h2home{
+  color: white !important;
+  border-top-color: #ff8c8c !important; 
+}
+
+html, body, .noDataDiv
+{ 
+ height: 100%;
+ overflow: hidden
+}
+
+.padding10{
+  padding-top: 10% !important;
+}
+
+.padding5 {
+  padding-top: 5% !important;
+}
+
+.padding20 {
+  padding-top: 20% !important;
+}
+
+.padding100 {
+  padding-bottom: 0% !important;
+}
+
+.padding5b {
+  padding-bottom: 5% !important;
+
+}
+.padding2b {
+  padding-bottom: 2% !important;
+
+}
+
+.h2home {
+  color: white;
+}
+
+.h2homeneon {
+  color: #fff;
+  text-shadow:
+    0 0 10px #fff,
+    0 0 22px rgb(5, 255, 25),
+    0 0 32px #fff;
+}
+
+.carouselDiv {
+  width: 60% !important;
+  height: 30% !important;
+  max-height: 30% !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding-top: 0% !important;
+  padding: auto !important;
+  margin: auto;
+  margin-top: 0% !important;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #ff8c8c;
+  color: white;
+  text-align: center;
+  display: inline-block;
+}
+
+.footer:hover{
+  box-shadow: 0px 10px 10px -10px #7f7bff , 0px 10px 20px -20px #7f7bff , 0px 10px 40px -40px #7f7bff !important;
+}
+
+.footerIcon {
+  display: inline-block;
+  clear: both;
+  color: white;
+  text-decoration: none;
+}
+
+.footerIcon:hover {
+  color:#7f7bff !important;  
+}
+
+.iniload { 
+  height: 100vh !important;
+}
+
+.tablesClass {
+  opacity: 1;
+}
+
+tr {
+  outline: 0 !important;
+  color: black !important;
+}
+
+tr:hover{
+  color:  #ff8c8c !important;
+}
+
+table {
+  background-color: lightcyan !important;
+  color: #fff;
+}
+
+table , .carouselDiv {
+  box-shadow: #ff8c8c 0px 30px 90px !important;
+  height: 80% !important;
+  max-height: 80% !important;
+  min-height: 80%;
+}
+
+td {
+  min-width: 200px !important;
+  width: 200px !important;
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;  
+  color: #000 !important;
+}
+
+tbody {
+  background: linear-gradient(0, #ff8c8c, #7f7bff);
+  background-color: #000 !important;
+}
+
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #7f7bff #ff8c8c;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track, *::-webkit-scrollbar-corner {
+  background: #7f7bff;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #ff8c8c;
+}
+
+.ant-table-body {
+  background: linear-gradient(0, #ff8c8c, #7f7bff);
+}
+
+.table-striped-rows tr:nth-child(2n) td {
+  background-color: #fbfbfb !important;
+}
+
+.tablesClass thead tr th {
+  background-color: #7f7bff !important;
+  color:white;
+}
+
+.tablesClass tbody tr td {
+  border: none !important;
+}
+
+.ant-pagination-item {
+  background-color: #7f7bff !important;
+  border: none !important;
+  color: white;
+}
+
+.ant-pagination-item-link {
+  border: none !important;
+  color: white !important;
+
+}
