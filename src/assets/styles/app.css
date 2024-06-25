@@ -163,13 +163,17 @@ tr {
   color: black !important;
 }
 
+tr:hover td {
+  color: #000 !important;
+}
+
 tr:hover{
   color:  #ff8c8c !important;
+  background:  #ff8c8c !important;
 }
 
 table {
-  background-color: lightcyan !important;
-  color: #fff;
+  background-color: #D7B5DB !important;
 }
 
 table , .carouselDiv {
@@ -186,18 +190,18 @@ td {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;  
-  color: #000 !important;
+  color:  #000 !important;
 }
 
 tbody {
-  background: linear-gradient(0, #ff8c8c, #7f7bff);
-  background-color: #000 !important;
+  background: linear-gradient(0, #D7B5DB, #7f7bffb8);
 }
 
 /* Works on Firefox */
 * {
   scrollbar-width: thin;
-  scrollbar-color: #7f7bff #ff8c8c;
+  scrollbar-color: #7f7bff #ff8c8c00;
+;
 }
 
 /* Works on Chrome, Edge, and Safari */
